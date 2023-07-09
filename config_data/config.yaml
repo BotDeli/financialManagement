@@ -1,0 +1,13 @@
+http-server:
+  address: "localhost:8080"
+  timeout: 4s
+  lifetime: 60s
+logger:
+  level: debug
+  format: text
+postgres:
+  user     : "kare"
+  password : ""
+  host     : "localhost"
+  dbname   : "financialManagement"
+  sslmode  : "disable"
